@@ -19,6 +19,7 @@ if(builderConfiguration.hasOwnProperty('buildVersion')) {
     fs.writeFile('./package.json', JSON.stringify(packageJson), (error) => {
         if(error) {
             console.log(error.message);
+	    console.log("if there is no error....")
         }
     });
     
