@@ -1,0 +1,140 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {},
+    "net6.0/win-x64": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Peter\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Asp.Net Core Projects\\Electron.NET-master\\Electron.NET-master\\ElectronNET.WebApp\\ElectronNET.WebApp.csproj",
+      "projectName": "ElectronNET.WebApp",
+      "projectPath": "E:\\Asp.Net Core Projects\\Electron.NET-master\\Electron.NET-master\\ElectronNET.WebApp\\ElectronNET.WebApp.csproj",
+      "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
+      "outputPath": "E:\\Asp.Net Core Projects\\Electron.NET-master\\Electron.NET-master\\ElectronNET.WebApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "E:\\Asp.Net Core Projects\\Electron.NET-master\\Electron.NET-master\\NuGet.Config",
+        "C:\\Users\\Peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "E:\\Asp.Net Core Projects\\Electron.NET-master\\Electron.NET-master\\artifacts": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "E:\\Asp.Net Core Projects\\Electron.NET-master\\Electron.NET-master\\ElectronNET.API\\ElectronNET.API.csproj": {
+              "projectPath": "E:\\Asp.Net Core Projects\\Electron.NET-master\\Electron.NET-master\\ElectronNET.API\\ElectronNET.API.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[6.0.12, 6.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[6.0.12, 6.0.12]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[6.0.12, 6.0.12]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "SixLabors.ImageSharp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "SocketIOClient"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.Reactive"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Nito.AsyncEx"
+    }
+  ]
+}

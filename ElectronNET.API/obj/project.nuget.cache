@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "dgSpecHash": "bf/HXUettdW2H2qU/rQTZZJBd6CSIhuKNACpDqsvKUFcyI7usXOX76Fu1p0ZENSXs3+xf7D92CzgeJV58ACR3g==",
+  "success": false,
+  "projectFilePath": "E:\\Asp.Net Core Projects\\Electron.NET-master\\Electron.NET-master\\ElectronNET.API\\ElectronNET.API.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.SourceLink.GitHub"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "SixLabors.ImageSharp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "SocketIOClient"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.Reactive"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Nito.AsyncEx"
+    }
+  ]
+}
